@@ -1,0 +1,4 @@
+// JS principal
+$(function() {
+	foobar();
+});
