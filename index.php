@@ -8,7 +8,8 @@
     <title>Optimisation</title>
 
     <!-- Bootstrap -->
-    <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/bootstrap.min.css,a_optimiser/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/main.css" rel="stylesheet">
   </head>
 
   <body>
@@ -62,5 +63,6 @@
     </div> <!-- /container -->
 
   </body>
-   <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/jquery-1.12.1.min.js,a_optimiser/js/fonctions.js,a_optimiser/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/fonctions.js,a_optimiser/js/main.js"></script>
 </html>
