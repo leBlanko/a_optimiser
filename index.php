@@ -8,13 +8,10 @@
     <title>Optimisation</title>
 
     <!-- Bootstrap -->
-    <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/main.css" rel="stylesheet">
+    <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/bootstrap.min.css,a_optimiser/css/main.css" rel="stylesheet">
 
     <!-- jquery -->
-    <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/jquery-1.12.1.min.js"></script>
-    <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/fonctions.js"></script>
-    <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/main.js"></script>
+    <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/jquery-1.12.1.min.js,a_optimiser/js/fonctions.js,a_optimiser/js/main.js"></script>
   </head>
 
   <body>
