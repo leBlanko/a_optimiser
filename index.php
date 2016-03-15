@@ -9,9 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="http://localhost:8888/a_optimiser/min/?f=a_optimiser/css/bootstrap.min.css,a_optimiser/css/main.css" rel="stylesheet">
-
-    <!-- jquery -->
-    <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/jquery-1.12.1.min.js,a_optimiser/js/fonctions.js,a_optimiser/js/main.js"></script>
   </head>
 
   <body>
@@ -65,26 +62,5 @@
     </div> <!-- /container -->
 
   </body>
+   <script src="http://localhost:8888/a_optimiser/min/?f=a_optimiser/js/jquery-1.12.1.min.js,a_optimiser/js/fonctions.js,a_optimiser/js/main.js"></script>
 </html>
-
-<?php
-
-  ob_start("compress");
- function compress( $minify )
-    {
-  /* remove comments */
-      $minify = preg_replace( '!/*[^*]**+([^/][^*]**+)*/!', '', $minify );
-
-        /* remove tabs, spaces, newlines, etc. */
-      $minify = str_replace( array("rn", "r", "n", "t", '  ', '    ', '    '), '', $minify );
-
-        return $minify;
-    }
-
-    /* css files for combining */
-    include('bootstrap.css');
-    include('main.css');
-
-ob_end_flush();
-
-?>
